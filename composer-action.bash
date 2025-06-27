@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ex
 
 container_workdir="/app"
 github_action_path=$(dirname "$0")
